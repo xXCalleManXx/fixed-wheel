@@ -1,0 +1,41 @@
+
+.wheelPartParent {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.wheelPart {
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+}
+
+.wheelPart p {
+  margin: 0;
+  height: 100px;
+  line-height: 100px;
+  transform: rotate(315deg);
+  color: white;
+  font-weight: bold;
+}
+
+.wheel {
+  border: 1px solid black;
+  width: 201px;
+  height: 201px;
+  border-radius: 50%;
+  transition: all 6s;
+  transition-timing-function: cubic-bezier(.21,.72,.18,.99);
+  transform: rotate(0deg);
+}
+
+.wheelPoint {
+
+}
+
+.rotated {
+  transform: rotate(360deg);
+}
